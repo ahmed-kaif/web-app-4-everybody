@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#one {
+  position: fixed;
+  max-width: 25%;
+  margin: 5px;
+  padding: 5px;
+  left: 5px;
+  top: 5px;
+  border: 5px solid #ffa500;
+}
+#two {
+  position: fixed;
+  max-width: 25%;
+  margin: 5px;
+  padding: 5px;
+  right: 5px;
+  top: 5px;
+  border: 5px solid #008000;
+}
+#three {
+  position: fixed;
+  max-width: 25%;
+  margin: 5px;
+  padding: 5px;
+  bottom: 5px;
+  left: 5px;
+  border: 5px solid #ffff00;
+}
+#four {
+  position: fixed;
+  max-width: 25%;
+  margin: 5px;
+  padding: 5px;
+  bottom: 5px;
+  right: 5px;
+  border: 5px solid #0000ff;
+}
+#link a {
+  display: block;
+  width: 10%;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  background-color: #354eb1;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
